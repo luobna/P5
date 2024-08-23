@@ -1,7 +1,13 @@
-import React from 'react'
+import BannerImg from "../../components/BannerImg.jsx";
+import Gallery from "../../components/gallery.jsx";
 
-export default function Home() {
+const Home = () => {
   return (
-    <div>page d'accueil</div>
-  )
-}
+    <div className="home">
+      <BannerImg />
+      <Gallery />
+    </div>
+  );
+};
+
+export default Home;

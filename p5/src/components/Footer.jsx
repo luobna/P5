@@ -1,7 +1,12 @@
-import React from 'react'
 
-export default function Footer() {
+import logoFooter from "../images/logoPourFooter.svg";
+const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <footer>
+      <img src={logoFooter} alt="Kaza logo"/>
+      <h3>© 2020 Kasa. All rights reserved</h3>
+    </footer>
+  );
+};
+
+export default Footer;

@@ -1,7 +1,12 @@
-import React from 'react'
-
-export default function Header() {
+import logo from "../images/logoKasa.svg"
+import Navigation from "./navigation";
+const Header = () => {
   return (
-    <div>Header</div>
-  )
-}
+    <header>
+    <img src={logo} alt="logo de kasa" />
+    <Navigation/>
+    </header>
+  );
+};
+
+export default Header;

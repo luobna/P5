@@ -12,6 +12,7 @@ import{
   Route,
   Link,
 } from 'react-router-dom'
+import main from './sass/main.scss';
 
 
 
@@ -19,6 +20,11 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App/>,
+  
+  },
+  {
+    path: "/",
+    element: <main/>,
   
   },
 
