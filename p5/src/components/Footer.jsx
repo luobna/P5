@@ -1,5 +1,6 @@
 
 import logoFooter from "../images/logoPourFooter.svg";
+
 const Footer = () => {
   return (
     <footer>
